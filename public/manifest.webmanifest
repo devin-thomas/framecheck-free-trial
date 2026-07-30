@@ -1,0 +1,10 @@
+{
+  "name": "FrameCheck Beta",
+  "short_name": "FrameCheck",
+  "description": "Focused fighting-game fundamentals checks.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#090c0b",
+  "theme_color": "#d3f33f"
+}

@@ -1,0 +1,45 @@
+@import '@fontsource/bebas-neue/latin-400.css';
+@import '@fontsource/ibm-plex-sans/latin-400.css';
+
+:root {
+  color: #f5f1e8;
+  background: #090c0b;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.placeholder-shell {
+  display: grid;
+  min-height: 100vh;
+  align-content: center;
+  gap: 1rem;
+  padding: 10vw;
+  background:
+    linear-gradient(rgb(211 243 63 / 4%) 1px, transparent 1px),
+    linear-gradient(90deg, rgb(211 243 63 / 4%) 1px, transparent 1px), #090c0b;
+  background-size: 56px 56px;
+}
+
+.placeholder-shell h1,
+.placeholder-shell p {
+  max-width: 16ch;
+  margin: 0;
+}
+
+.placeholder-shell h1 {
+  color: #d3f33f;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: clamp(4rem, 11vw, 9rem);
+  font-weight: 400;
+  line-height: 0.85;
+  text-transform: uppercase;
+}
