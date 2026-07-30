@@ -1,7 +1,8 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import { PlaceholderApp } from './app/PlaceholderApp'
+import { FrameCheckApp } from './app/FrameCheckApp'
 import './styles/global.css'
+import './styles/framecheck.css'
 
 const root = document.getElementById('root')
 
@@ -11,6 +12,6 @@ if (!root) {
 
 createRoot(root).render(
   <StrictMode>
-    <PlaceholderApp />
+    <FrameCheckApp />
   </StrictMode>,
 )
