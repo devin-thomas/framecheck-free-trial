@@ -32,6 +32,15 @@ describe('FrameCheck public assessment flow', () => {
     expect(
       screen.getByRole('button', { name: /Iron Fist Fundamentals/i }),
     ).toBeInTheDocument()
+    expect(
+      screen.getByRole('link', { name: /Devin Thomas portfolio/i }),
+    ).toHaveAttribute('href', 'https://devthomas.site')
+    expect(
+      screen.getByRole('link', { name: /Source on GitHub/i }),
+    ).toHaveAttribute(
+      'href',
+      'https://github.com/devin-thomas/framecheck-free-trial',
+    )
 
     fireEvent.click(
       screen.getAllByRole('button', { name: /Start domain trial/i })[0],

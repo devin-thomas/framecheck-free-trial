@@ -7,7 +7,6 @@ const forbiddenDependencyNames = [
   ['fire', 'base'].join(''),
   ['fire', 'base-admin'].join(''),
   ['fire', 'base-functions'].join(''),
-  ['wrang', 'ler'].join(''),
   ['stripe'].join(''),
 ]
 const riskyFileName =

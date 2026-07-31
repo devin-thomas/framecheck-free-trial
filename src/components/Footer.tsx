@@ -8,6 +8,10 @@ export function Footer() {
       </div>
       <p>Original demonstration questions. Progress stays in this browser.</p>
       <div>
+        <a href={brand.portfolioUrl}>Devin Thomas portfolio</a>
+        <a href={brand.sourceUrl} target="_blank" rel="noreferrer">
+          Source on GitHub
+        </a>
         <a
           href={`${import.meta.env.BASE_URL}questions-and-answers.md`}
           download
