@@ -1,6 +1,6 @@
 # FrameCheck
 
-FrameCheck is a browser-local fighting-game assessment prototype and employer-facing vertical slice by Devin Thomas.
+FrameCheck is a browser-local fighting-game assessment prototype and polished vertical slice by Devin Thomas.
 
 **Live demo:** [framecheck.devthomas.site](https://framecheck.devthomas.site)
 
